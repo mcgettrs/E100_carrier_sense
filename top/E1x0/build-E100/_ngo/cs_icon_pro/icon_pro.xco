@@ -1,7 +1,7 @@
 ##############################################################
 #
-# Xilinx Core Generator version 13.1
-# Date: Wed Jan 18 00:51:25 2012
+# Xilinx Core Generator version 13.4
+# Date: Wed Nov 21 16:53:04 2012
 #
 ##############################################################
 #
@@ -9,6 +9,10 @@
 #  Xilinx CORE Generator IP GUI. It is strongly recommended
 #  that you do not manually alter this file as it may cause
 #  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:chipscope_icon:1.06.a
 #
 ##############################################################
 #
@@ -32,10 +36,11 @@ SET verilogsim = false
 SET vhdlsim = true
 # END Project Options
 # BEGIN Select
-SELECT ICON_(ChipScope_Pro_-_Integrated_Controller) family Xilinx,_Inc. 1.05.a
+SELECT ICON_(ChipScope_Pro_-_Integrated_Controller) family Xilinx,_Inc. 1.06.a
 # END Select
 # BEGIN Parameters
 CSET component_name=icon_pro
+CSET constraint_type=embedded
 CSET enable_jtag_bufg=true
 CSET example_design=false
 CSET number_control_ports=1
@@ -44,5 +49,8 @@ CSET use_softbscan=false
 CSET use_unused_bscan=false
 CSET user_scan_chain=USER1
 # END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2012-01-07T09:19:07Z
+# END Extra information
 GENERATE
-# CRC:  826475f
+# CRC: 58541c02

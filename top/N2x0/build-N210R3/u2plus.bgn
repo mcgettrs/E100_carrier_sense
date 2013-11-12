@@ -1,13 +1,13 @@
-Release 13.2 - Bitgen O.61xd (lin)
+Release 13.4 - Bitgen O.87xd (lin)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '3sd3400a.nph' in environment
-/data/Xilinx/13.2/ISE_DS/ISE/.
+/opt/Xilinx/13.4/ISE_DS/ISE/.
    "u2plus" is an NCD, version 3.2, device xc3sd3400a, package fg676, speed -5
 Opened constraints file u2plus.pcf.
 
-Wed Oct 26 06:44:46 2011
+Wed Nov 21 18:37:30 2012
 
-/data/Xilinx/13.2/ISE_DS/ISE/bin/lin/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:yes -g Compress -g CRC:Enable -g Reset_on_err:No -g ConfigRate:6 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g StartUpClk:CClk -g DONE_cycle:5 -g GTS_cycle:6 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g en_sw_gsr:No -g en_porb:Yes -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 u2plus.ncd 
+/opt/Xilinx/13.4/ISE_DS/ISE/bin/lin/unwrapped/bitgen -intstyle ise -w -g Binary:yes -g Compress -g CRC:Enable -g Reset_on_err:No -g ConfigRate:6 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g StartUpClk:CClk -g DONE_cycle:5 -g GTS_cycle:6 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g en_sw_gsr:No -g en_porb:Yes -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 u2plus.ncd 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+
@@ -19,7 +19,7 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | CRC                  | Enable**             |
 +----------------------+----------------------+
-| DebugBitstream       | No**                 |
+| DebugBitstream       | No*                  |
 +----------------------+----------------------+
 | ConfigRate           | 6**                  |
 +----------------------+----------------------+
@@ -134,8 +134,16 @@ WARNING:PhysDesignRules:367 - The signal <ADC_clkout_p_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
 DRC detected 0 errors and 9 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+'/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in
+/home/seamas/.flexlmrc.
+INFO:Security:56 - Part 'xc3sd3400a' is not a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
 Creating bit map...
 Saving bit stream in "u2plus.bit".
-Bitstream compression saved 1438304 bits.
+Bitstream compression saved 1232832 bits.
 Saving bit stream in "u2plus.bin".
 Bitstream generation is complete.

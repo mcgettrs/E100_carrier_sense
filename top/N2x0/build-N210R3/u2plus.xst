@@ -15,7 +15,7 @@ run
 -rtlview Yes
 -glob_opt AllClockNets
 -read_cores YES
--sd {"../../../coregen" "../../../extramfifo"  }
+-sd {"../../../coregen" "ipcore_dir" "../../../extramfifo"  }
 -write_timing_constraints NO
 -cross_clock_analysis NO
 -hierarchy_separator /

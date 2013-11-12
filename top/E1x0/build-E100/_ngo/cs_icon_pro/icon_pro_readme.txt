@@ -1,45 +1,44 @@
-The following files were generated for 'icon_pro' in directory 
-C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\_ngo\cs_icon_pro\
+The following files were generated for 'icon_pro' in directory
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/_ngo/cs_icon_pro/
 
-icon_pro.ejp:
-   Please see the core data sheet.
+XCO file generator:
+   Generate an XCO file for compatibility with legacy flows.
 
-icon_pro.gise:
-   ISE Project Navigator support file. This is a generated file and should
-   not be edited directly.
+   * icon_pro.xco
 
-icon_pro.ngc:
-   Binary Xilinx implementation netlist file containing the information
-   required to implement the module in a Xilinx (R) FPGA.
+Creates an implementation netlist:
+   Creates an implementation netlist for the IP.
 
-icon_pro.vhd:
-   Unisim VHDL file containing the information required to simulate
-   the module.
+   * icon_pro.ngc
+   * icon_pro.vhd
+   * icon_pro.vho
 
-icon_pro.vho:
-   VHO template file containing code that can be used as a model for
-   instantiating a CORE Generator module in a VHDL design.
+Creates an HDL instantiation template:
+   Creates an HDL instantiation template for the IP.
 
-icon_pro.xco:
-   CORE Generator input file containing the parameters used to
-   regenerate a core.
+   * icon_pro.vho
 
-icon_pro.xise:
-   ISE Project Navigator support file. This is a generated file and should
-   not be edited directly.
+Generate ISE metadata:
+   Create a metadata file for use when including this core in ISE designs
 
-icon_pro_readme.txt:
-   Text file indicating the files generated and how they are used.
+   * icon_pro_xmdf.tcl
 
-icon_pro_xmdf.tcl:
-   ISE Project Navigator interface file. ISE uses this file to determine
-   how the files output by CORE Generator for the core can be integrated
-   into your ISE project.
+Generate ISE subproject:
+   Create an ISE subproject for use when including this core in ISE designs
 
-icon_pro_flist.txt:
-   Text file listing all of the output files produced when a customized
-   core was generated in the CORE Generator.
+   * icon_pro.gise
+   * icon_pro.xise
 
+Deliver Readme:
+   Readme file for the IP.
+
+   * icon_pro_readme.txt
+
+Generate FLIST file:
+   Text file listing all of the output files produced when a customized core was
+   generated in the CORE Generator.
+
+   * icon_pro_flist.txt
 
 Please see the Xilinx CORE Generator online help for further details on
 generated files and how to use them.

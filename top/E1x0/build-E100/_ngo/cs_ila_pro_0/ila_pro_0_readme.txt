@@ -1,48 +1,45 @@
-The following files were generated for 'ila_pro_0' in directory 
-C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\_ngo\cs_ila_pro_0\
+The following files were generated for 'ila_pro_0' in directory
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/_ngo/cs_ila_pro_0/
 
-ila_pro_0.cdc:
-   Please see the core data sheet.
+XCO file generator:
+   Generate an XCO file for compatibility with legacy flows.
 
-ila_pro_0.ejp:
-   Please see the core data sheet.
+   * ila_pro_0.xco
 
-ila_pro_0.gise:
-   ISE Project Navigator support file. This is a generated file and should
-   not be edited directly.
+Creates an implementation netlist:
+   Creates an implementation netlist for the IP.
 
-ila_pro_0.ngc:
-   Binary Xilinx implementation netlist file containing the information
-   required to implement the module in a Xilinx (R) FPGA.
+   * ila_pro_0.cdc
+   * ila_pro_0.ngc
+   * ila_pro_0.vhd
+   * ila_pro_0.vho
 
-ila_pro_0.vhd:
-   Unisim VHDL file containing the information required to simulate
-   the module.
+Creates an HDL instantiation template:
+   Creates an HDL instantiation template for the IP.
 
-ila_pro_0.vho:
-   VHO template file containing code that can be used as a model for
-   instantiating a CORE Generator module in a VHDL design.
+   * ila_pro_0.vho
 
-ila_pro_0.xco:
-   CORE Generator input file containing the parameters used to
-   regenerate a core.
+Generate ISE metadata:
+   Create a metadata file for use when including this core in ISE designs
 
-ila_pro_0.xise:
-   ISE Project Navigator support file. This is a generated file and should
-   not be edited directly.
+   * ila_pro_0_xmdf.tcl
 
-ila_pro_0_readme.txt:
-   Text file indicating the files generated and how they are used.
+Generate ISE subproject:
+   Create an ISE subproject for use when including this core in ISE designs
 
-ila_pro_0_xmdf.tcl:
-   ISE Project Navigator interface file. ISE uses this file to determine
-   how the files output by CORE Generator for the core can be integrated
-   into your ISE project.
+   * ila_pro_0.gise
+   * ila_pro_0.xise
 
-ila_pro_0_flist.txt:
-   Text file listing all of the output files produced when a customized
-   core was generated in the CORE Generator.
+Deliver Readme:
+   Readme file for the IP.
 
+   * ila_pro_0_readme.txt
+
+Generate FLIST file:
+   Text file listing all of the output files produced when a customized core was
+   generated in the CORE Generator.
+
+   * ila_pro_0_flist.txt
 
 Please see the Xilinx CORE Generator online help for further details on
 generated files and how to use them.

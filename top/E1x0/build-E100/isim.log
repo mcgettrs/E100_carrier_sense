@@ -1,14 +1,29 @@
 ISim log file
-Running: C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\cs_component_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.wdb 
-ISim O.40d (signature 0x79f3f3a8)
+Running: /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/backoff_gen_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/backoff_gen_tb_isim_beh.wdb 
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
 This is a Full version of ISim.
-WARNING:  For instance uut2/u3_iq_mag/, width 1 of formal port ce is not equal to width 32 of actual constant.
-WARNING: File "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 39.  For instance cs_component_tb/uut/, width 32 of formal port present_nextcount is not equal to width 16 of actual signal present_nextcount.
-WARNING:  For instance cs_component_tb/cic_strober/, width 9 of formal port rate is not equal to width 32 of actual constant.
-WARNING:  For instance cs_component_tb/cic_strober/, width 1 of formal port strobe_fast is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 1260 ns :  in File "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/backoff_gen_tb.v" Line 81 
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
@@ -16,4 +31,59 @@ Finished circuit initialization process.
 # run all
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 2633262268 ps : File "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 74
+Stopped at time : 1280 ns :  in File "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/backoff_gen_tb.v" Line 83 
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1280 ns :  in File "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/backoff_gen_tb.v" Line 83 
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim O.87xd (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to '/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in /home/seamas/.flexlmrc.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1300 ns :  in File "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/backoff_gen_tb.v" Line 87 
+# exit 0

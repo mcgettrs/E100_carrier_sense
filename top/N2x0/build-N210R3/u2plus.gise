@@ -47,10 +47,6 @@
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="../../../coregen/fifo_xlnx_2Kx36_2clk.vhd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHO" xil_pn:name="../../../coregen/fifo_xlnx_2Kx36_2clk.vho" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_2Kx36_2clk_readme.txt"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../../coregen/fifo_xlnx_32x36_2clk.v" xil_pn:origination="imported" xil_pn:subbranch="Par">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_32x36_2clk_readme.txt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk.ngc" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk.v" xil_pn:origination="imported" xil_pn:subbranch="Par">
@@ -58,20 +54,8 @@
       <branch xil_pn:name="BehavioralSim"/>
     </file>
     <file xil_pn:fileType="FILE_VEO" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk.veo" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_18to36.v" xil_pn:origination="imported" xil_pn:subbranch="Par">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_18to36_readme.txt"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_36to18.v" xil_pn:origination="imported" xil_pn:subbranch="Par">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_36to18_readme.txt"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_prog_full.v" xil_pn:origination="imported" xil_pn:subbranch="Par">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_prog_full_readme.txt"/>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_readme.txt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../../../coregen/fifo_xlnx_64x36_2clk.ngc" xil_pn:origination="imported"/>
@@ -89,6 +73,7 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="u2plus.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_BIN" xil_pn:name="u2plus.bin"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="u2plus.bit" xil_pn:subbranch="FPGAConfiguration"/>
@@ -113,6 +98,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="u2plus.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="u2plus.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="u2plus.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="u2plus_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="u2plus_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="u2plus_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="u2plus_map.mrp" xil_pn:subbranch="Map"/>
@@ -124,8 +110,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="u2plus_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="u2plus_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="u2plus_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="u2plus_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="u2plus_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="u2plus_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="u2plus_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="u2plus_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
@@ -143,7 +131,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1319604579" xil_pn:in_ck="-676626176467621797" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5581062129701422962" xil_pn:start_ts="1319604578">
+    <transform xil_pn:end_ts="1353521041" xil_pn:in_ck="-3596924256585121811" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5581062129701422962" xil_pn:start_ts="1353521040">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../../../coregen/fifo_xlnx_16x19_2clk.ngc"/>
@@ -164,6 +152,10 @@
       <outfile xil_pn:name="../../../coregen/fifo_xlnx_512x36_2clk_prog_full.v"/>
       <outfile xil_pn:name="../../../coregen/fifo_xlnx_64x36_2clk.ngc"/>
       <outfile xil_pn:name="../../../coregen/fifo_xlnx_64x36_2clk.v"/>
+      <outfile xil_pn:name="ipcore_dir/cordic_in.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/cordic_in.v"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_in.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_in.v"/>
     </transform>
     <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -181,7 +173,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1319605566" xil_pn:in_ck="-1924346268448095532" xil_pn:name="TRANEXT_xstsynthesize_spartan3adsp" xil_pn:prop_ck="-6158297687999488296" xil_pn:start_ts="1319604579">
+    <transform xil_pn:end_ts="1353521700" xil_pn:in_ck="2645700987208593982" xil_pn:name="TRANEXT_xstsynthesize_spartan3adsp" xil_pn:prop_ck="-6158297687999488296" xil_pn:start_ts="1353521094">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -204,7 +196,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1319605632" xil_pn:in_ck="-4437948616371378893" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6965328241586381157" xil_pn:start_ts="1319605566">
+    <transform xil_pn:end_ts="1353521750" xil_pn:in_ck="3144259984211444961" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6965328241586381157" xil_pn:start_ts="1353521700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -214,10 +206,12 @@
       <outfile xil_pn:name="u2plus.ngd"/>
       <outfile xil_pn:name="u2plus_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1319606653" xil_pn:in_ck="-2447023498225984332" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-3507683106429895974" xil_pn:start_ts="1319605632">
+    <transform xil_pn:end_ts="1353522648" xil_pn:in_ck="-2447023498225984332" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-3507683106429895974" xil_pn:start_ts="1353521750">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="u2plus.pcf"/>
       <outfile xil_pn:name="u2plus_map.map"/>
@@ -229,8 +223,9 @@
       <outfile xil_pn:name="u2plus_summary.xml"/>
       <outfile xil_pn:name="u2plus_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1319607856" xil_pn:in_ck="-8563337878949534259" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4534759625332273352" xil_pn:start_ts="1319606653">
+    <transform xil_pn:end_ts="1353523028" xil_pn:in_ck="-8563337878949534259" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4534759625332273352" xil_pn:start_ts="1353522649">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="u2plus.ncd"/>
@@ -243,7 +238,7 @@
       <outfile xil_pn:name="u2plus_pad.txt"/>
       <outfile xil_pn:name="u2plus_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1319608053" xil_pn:in_ck="5505381567092782" xil_pn:name="TRANEXT_bitFile_spartan3adsp" xil_pn:prop_ck="-1172632562391228863" xil_pn:start_ts="1319607856">
+    <transform xil_pn:end_ts="1353523180" xil_pn:in_ck="5505381567092782" xil_pn:name="TRANEXT_bitFile_spartan3adsp" xil_pn:prop_ck="-1172632562391228863" xil_pn:start_ts="1353523028">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -257,7 +252,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1319607856" xil_pn:in_ck="-2447023498225984464" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="5723116666012008221" xil_pn:start_ts="1319607763">
+    <transform xil_pn:end_ts="1353523028" xil_pn:in_ck="-2447023498225984464" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="5723116666012008221" xil_pn:start_ts="1353522957">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

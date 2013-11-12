@@ -14,7 +14,7 @@ namespace eval ::icon_pro_xmdf {
 # Optional when the use context does not require the param or ports
 # arrays to be available.
 proc ::icon_pro_xmdf::xmdfInit { instance } {
-# Variable containg name of library into which module is compiled
+# Variable containing name of library into which module is compiled
 # Recommendation: <module_name>
 # Required
 utilities_xmdf::xmdfSetData $instance Module Attributes Name icon_pro
@@ -30,14 +30,9 @@ set fcount 0
 # Examples include unisim and xilinxcorelib
 # Optional
 # In this example, we assume that the unisim library will
-# be magically
-# available to the simulation and synthesis tool
+# be available to the simulation and synthesis tool
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type logical_library
 utilities_xmdf::xmdfSetData $instance FileSet $fcount logical_library unisim
-incr fcount
-
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path icon_pro.ejp
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type AnyView
 incr fcount
 
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path icon_pro.ngc

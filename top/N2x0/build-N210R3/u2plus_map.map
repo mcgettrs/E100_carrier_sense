@@ -1,4 +1,4 @@
-Release 13.2 Map O.61xd (lin)
+Release 13.4 Map O.87xd (lin)
 Xilinx Map Application Log File for Design 'u2plus'
 
 Design Information
@@ -10,8 +10,17 @@ Target Device  : xc3sd3400a
 Target Package : fg676
 Target Speed   : -5
 Mapper Version : spartan3adsp -- $Revision: 1.55 $
-Mapped Date    : Wed Oct 26 06:07:21 2011
+Mapped Date    : Wed Nov 21 18:15:56 2012
 
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+'/home/seamas/.Xilinx:/opt/Xilinx/12.4/ISE_DS/ISE/coregen/core_licenses' in
+/home/seamas/.flexlmrc.
+INFO:Security:56 - Part 'xc3sd3400a' is not a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
 Mapping design into LUTs...
 WARNING:LIT:176 - Clock buffer is designated to drive clock loads. BUFGMUX
    symbol "physical_group_wb_clk/wbclk_BUFG" (output signal=wb_clk) has a mix of
@@ -259,6 +268,72 @@ WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/simple_gemac_wb/eth_miim/EndBusy" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_10"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_11"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_12"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_20"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_13"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_21"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_14"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_22"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_30"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_15"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_23"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_31"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_16"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_24"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_17"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_25"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_18"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_26"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_19"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_27"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_28"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_29"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/packet_router/com_output_source/state_0"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -819,6 +894,36 @@ WARNING:Pack:2780 - The register
 WARNING:Pack:2780 - The register "u2p_c/packet_router/com_inp_fifo/full" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_0"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_1"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_2"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_3"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_4"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_5"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_6"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_7"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_8"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_9"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/rx_2clk_fifo/shortfifo2/a_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -870,49 +975,9 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_10_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_10_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_11_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_11_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_12_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_12_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_13_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_13_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/packet_router/cpu_to_wb/wr_state_FSM_FFd1" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_14_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_14_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/packet_router/cpu_to_wb/wr_state_FSM_FFd2" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
@@ -958,14 +1023,6 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_15_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_15_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/hb_interp_i/acc/out_16" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -981,30 +1038,6 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/hb_interp_i/acc/out_19" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB1" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB1" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/rx_2clk_fifo/shortfifo/full" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -2947,6 +2980,9 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/go_d3" has the
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/go_d4" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/vita_tx_chain/vita_tx_control/late_del"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/uart/gen_uarts[2].simple_uart_rx/fifo/head/full" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -5102,27 +5138,6 @@ WARNING:Pack:2780 - The register
    "u2p_c/ext_fifo_i1/fifo_g1.fifo_xlnx_32x36_2clk_prog_full_i1/BU2/U0/grf.rf/gc
    x.clkx/wr_pntr_bin_8" has the property IOB=TRUE, but it did not join an IO
    component because it is not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_0_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_1_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_2_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_2_2"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_3_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_4_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_receiver/shiftreg_6_1"
-   has the property IOB=TRUE, but it did not join an IO component because it is
-   not connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/zpu_top0/zpu_system0/my_zpu_core/binaryOpResult_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -6125,6 +6140,36 @@ WARNING:Pack:2780 - The register "u2p_c/vita_tx_chain/gen_flow_pkt/err_time_8"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/vita_tx_chain/gen_flow_pkt/err_time_9"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_0"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_1"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_2"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_3"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_4"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_5"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_6"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_7"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_8"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_9"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/data_rnd_d1_0"
@@ -7650,6 +7695,46 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_q/sum2_8" has the
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_q/sum2_9" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_1" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_6" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_7" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_8" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_9" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_q/odd" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -7845,6 +7930,9 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_i/middle_d1_8" has
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_i/middle_d1_9" has
    the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/ready_sample" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_i/odd" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -8182,6 +8270,9 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_i/data_out_7" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_i/data_out_8" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/en_comp" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_i/data_out_9" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -8377,6 +8468,94 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/phase_28" has the property
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/phase_29" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_10" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_11" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_20" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_12" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_21" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_13" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_30" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_22" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_14" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_31" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_23" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_15" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_24" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_16" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_25" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_17" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_26" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_18" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_27" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_19" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_28" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_29" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/pic/dirq_2" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
@@ -8519,6 +8698,15 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_q/final_sum_18" has the
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_q/final_sum_19" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/state_0" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/state_1" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/state_2" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/pic/lirq_2" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
@@ -8603,6 +8791,9 @@ WARNING:Pack:2780 - The register "u2p_c/pic/pol_29" has the property IOB=TRUE,
 WARNING:Pack:2780 - The register "u2p_c/packet_router/com_out_xbar/cross_int"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/rst_dev" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_i/sum1_0" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -8777,6 +8968,14 @@ WARNING:Pack:2780 - The register
    any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/uart/gen_uarts[1].simple_uart_rx/rx_d2"
@@ -10132,17 +10331,41 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/cordic_stage19/yo_9"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/send_error" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/rx_fifo19_to_fifo36/head_fifo/empty" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000110" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000111" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_10" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000112" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_11" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000113" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000105" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_20" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -10152,6 +10375,14 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000114" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000106" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_21" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -10159,6 +10390,14 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_13" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000115" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000107" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_30" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -10172,6 +10411,10 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000108" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_23" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -10179,6 +10422,10 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_15" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000109" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_24" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -10219,6 +10466,30 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/trigger_context_pkt/cycle_count_29" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010a" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010b" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010c" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010d" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010e" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010f" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/hb_interp_q/acc/out_10" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -10276,16 +10547,120 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/late_del_BRB0" has the property
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b0" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c0" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b3" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b4" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c3" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b5" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c4" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b6" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c5" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b7" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c6" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b8" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c7" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b9" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c8" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c9" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_10" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_11" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_12" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_13" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_14" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_1" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_15" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_3" has the property
@@ -10317,6 +10692,58 @@ WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_8" has the property
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/CRC_9" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ab" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ba" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ac" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bb" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ad" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ca" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bc" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ae" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000cb" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bd" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000af" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000be" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bf" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/cordic_stage0/xo_10"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -12920,14 +13347,6 @@ WARNING:Pack:2780 - The register
    0.rd/gr1.rfwft/curr_fwft_state_1" has the property IOB=TRUE, but it did not
    join an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_0_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_0_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/mux_err_and_flow/mux_fifo/a_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -12944,14 +13363,6 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/adc_q_mux_10" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_1_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_1_BRB2" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/adc_q_mux_11" has the
@@ -13003,14 +13414,6 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/x0_2" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/x0_3" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_2_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_2_BRB0" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/x0_4" has the
@@ -13092,54 +13495,6 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cordic/z0_9" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_3_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_3_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_4_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_4_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_5_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_5_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_6_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_6_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_7_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_7_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_8_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_8_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/packet_router/packet_dispatcher/sreg_data_port/out_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -13179,22 +13534,6 @@ WARNING:Pack:2780 - The register
    "u2p_c/packet_router/packet_dispatcher/sreg_data_port/out_9" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9_BRB2" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/vita_tx_chain/dsp_core_tx/sr_0/out_0"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -17532,6 +17871,9 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/cic_strober/counter_6" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/cic_strober/counter_7" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/cic_strober/counter_8" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/decim_i/pipeline_0_10" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -18667,13 +19009,13 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_rx_chain0/vita_rx_framer/sr_samples_per_pkt/out_15" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register "u2p_c/wb_rst_2_shift1" has the property
+WARNING:Pack:2780 - The register "u2p_c/wb_rst_3_shift1" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register "u2p_c/wb_rst_2_shift2" has the property
+WARNING:Pack:2780 - The register "u2p_c/wb_rst_3_shift2" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register "u2p_c/wb_rst_2_shift3" has the property
+WARNING:Pack:2780 - The register "u2p_c/wb_rst_3_shift3" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/state_FSM_FFd1" has the
@@ -18728,6 +19070,9 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/vita_tx_control/ibs_state_2" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/present_next" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_q/phase_0" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -22822,6 +23167,9 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cic_strober/counter_6" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cic_strober/counter_7" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/cic_strober/counter_8" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/decim_i/pipeline_0_10" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -23326,6 +23674,70 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/decim_i/pipeline_3_48" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/decim_i/pipeline_3_49" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_20" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_21" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_30" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_22" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_31" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_23" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_24" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_16" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_25" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_17" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_26" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_18" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_27" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_19" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_28" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_29" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/ext_fifo_i1/fifo_g1.fifo_xlnx_32x36_2clk_prog_full_i1/BU2/U0/grf.rf/gl
    0.wr/gwas.gpf.wrpf/diff_pntr_pad_3" has the property IOB=TRUE, but it did not
@@ -26314,14 +26726,6 @@ WARNING:Pack:2780 - The register
    0.wr/gwas.wsts/ram_full_fb_i" has the property IOB=TRUE, but it did not join
    an IO component because it is not connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_20_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_20_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/i2c/byte_controller/bit_controller/c_state_FSM_FFd10" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -26357,73 +26761,9 @@ WARNING:Pack:2780 - The register
    "u2p_c/i2c/byte_controller/bit_controller/c_state_FSM_FFd18" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_21_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_21_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/xon_1s/sendit" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_30_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_22_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_30_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_22_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_31_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_23_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_31_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_23_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_24_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_24_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB3" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB4" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_1" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -26442,28 +26782,12 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_5" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_6" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_25_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_17_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_7" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_8" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_25_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_17_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/middle_d1_9" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -26488,14 +26812,6 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/middle_6" has
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/middle_7" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_26_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_18_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/middle_8" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -26503,43 +26819,11 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/middle_9" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_26_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_18_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/vita_rx_chain1/vita_rx_control/rx_sample_fifo/full" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/vita_rx_chain0/vita_rx_control/rx_sample_fifo/full" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_27_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_19_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_27_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_19_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_28_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_28_BRB2" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_i/phase_d1_0" has the
@@ -26551,14 +26835,6 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_i/phase_d1_1" has the
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_i/phase_d1_2" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_29_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_29_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/ext_fifo_i1/fifo_g1.fifo_xlnx_32x36_2clk_i1/BU2/U0/grf.rf/rstblk/wr_rs
    t_asreg" has the property IOB=TRUE, but it did not join an IO component
@@ -26709,18 +26985,6 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_q/sum2_16" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/hb_q/sum2_17" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB0" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB1" has the
-   property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB2" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/serdes/serdes_rx/xoff_1s/gotit" has the
@@ -30333,6 +30597,46 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_1" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_6" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_7" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_8" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_9" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/vita_tx_deframer/vita_seqnum_reg_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -30676,6 +30980,34 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/vita_tx_deframer/is_eob_reg" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_10" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_11" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_12" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_13" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_14" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_15" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_17" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
@@ -32405,6 +32737,36 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/cordic/z0_18" has the
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/cordic/z0_19" has the
    property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_0" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_1" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_2" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_3" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_4" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_5" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_6" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_7" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_8" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/stored_out_out_9" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/time_64bit/time_sender/vita_time_reg_0"
    has the property IOB=TRUE, but it did not join an IO component because it is
@@ -40466,6 +40828,46 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_1" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_6" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_7" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_8" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/uart/gen_uarts[1].simple_uart_tx/fifo/head/a_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -40482,25 +40884,9 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and00004_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and00004_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/packet_router/com_output_source/mux_fifo/empty" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and00009_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and00009_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/ext_fifo_i1/fifo_g1.fifo_xlnx_32x36_2clk_i1/BU2/U0/grf.rf/gcx.clkx/rd_
    pntr_bin_0" has the property IOB=TRUE, but it did not join an IO component
@@ -44069,7 +44455,25 @@ WARNING:Pack:2780 - The register "u2p_c/nsgpio/tx_out_28" has the property
 WARNING:Pack:2780 - The register "u2p_c/nsgpio/tx_out_29" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_10"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_11"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_12"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_13"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_14"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/data_rnd_d1_0"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/img_value_delay_15"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_q/data_rnd_d1_1"
@@ -44500,7 +44904,23 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/decim_i/pipeline_3_9" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_3" has the property IOB=TRUE,
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_0" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_4" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register
+   "u2p_c/vita_tx_chain/vita_tx_control/error_code_5" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
 WARNING:Pack:2780 - The register
@@ -47562,6 +47982,46 @@ WARNING:Pack:2780 - The register
    " has the property IOB=TRUE, but it did not join an IO component because it
    is not connected to any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_1" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_6" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_7" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_8" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/zpu_top0/zpu_system0/my_zpu_core/stackA_0" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
    element.
@@ -50365,7 +50825,15 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_0" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/yo_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_1" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
@@ -50373,11 +50841,23 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/yo_6" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_3" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/yo_7" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_4" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
@@ -50389,6 +50869,10 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_5" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/zo_1" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -50397,7 +50881,15 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_6" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/zo_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_7" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
@@ -50405,7 +50897,15 @@ WARNING:Pack:2780 - The register
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_8" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/cordic/cordic_stage5/zo_4" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_9" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
@@ -53016,6 +53516,9 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_rx_chain0/vita_rx_control/lines_total_27" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut1/wr_en" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/vita_rx_chain0/vita_rx_control/too_late"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -53087,22 +53590,6 @@ WARNING:Pack:2780 - The register
    connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/packet_router/packet_dispatcher/ext_out_mux/mux_fifo_in1/empty" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000021_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000021_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000031_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000031_FRB" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register
@@ -53193,14 +53680,6 @@ WARNING:Pack:2780 - The register
    "u2p_c/zpu_top0/zpu_system0/my_zpu_core/binaryOpResult_29" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000026_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000026_FRB" has
-   the property IOB=TRUE, but it did not join an IO component because it is not
-   connected to any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/time_64bit/time_receiver/vita_time_pre_0" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
@@ -54526,6 +55005,10 @@ WARNING:Pack:2780 - The register
    "u2p_c/uart/gen_uarts[0].simple_uart_rx/fifo/tail/occupied_4" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/u8_compare_threshold/Comp" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/simple_gemac_wb/wb_reg_mcast_h/dat_o_10" has the
    property IOB=TRUE, but it did not join an IO component because it is not
@@ -56009,30 +56492,6 @@ WARNING:Pack:2780 - The register
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
 WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/hb_interp_q/clipped_reg_0" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
@@ -56072,6 +56531,24 @@ WARNING:Pack:2780 - The register
    "u2p_c/vita_tx_chain/dsp_core_tx/hb_interp_q/clipped_reg_9" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_10"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_11"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_12"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_13"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_14"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
+WARNING:Pack:2780 - The register "u2p_c/carrier_sense/uut2/real_value_delay_15"
+   has the property IOB=TRUE, but it did not join an IO component because it is
+   not connected to any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/small_hb_q/data_rnd_d1_10"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -56633,66 +57110,6 @@ WARNING:Pack:2780 - The register "u2p_c/i2c/byte_controller/core_txd" has the
 WARNING:Pack:2780 - The register "u2p_c/i2c/tip" has the property IOB=TRUE, but
    it did not join an IO component because it is not connected to any IO
    element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/rx_frontend/.rx_dcoffset_q/integrator_10" has the property IOB=TRUE,
    but it did not join an IO component because it is not connected to any IO
@@ -57557,18 +57974,6 @@ WARNING:Pack:2780 - The register "u2p_c/packet_router/cpu_to_wb/rd_addr_14" has
 WARNING:Pack:2780 - The register "u2p_c/packet_router/cpu_to_wb/rd_addr_15" has
    the property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB0" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB1" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
-WARNING:Pack:2780 - The register
-   "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB2" has the property
-   IOB=TRUE, but it did not join an IO component because it is not connected to
-   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/small_hb_i/accum_0" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
@@ -57694,6 +58099,94 @@ WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_i/data_out_18" has the
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx0/hb_i/data_out_19" has the
    property IOB=TRUE, but it did not join an IO component because it is not
    connected to any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_10" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_11" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_12" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_20" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_13" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_21" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_14" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_22" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_30" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_15" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_23" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_31" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_16" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_24" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_17" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_25" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_18" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_26" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_19" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_27" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_28" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_29" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
 WARNING:Pack:2780 - The register "u2p_c/dsp_core_rx1/decim_q/differentiator_0_0"
    has the property IOB=TRUE, but it did not join an IO component because it is
    not connected to any IO element.
@@ -60024,6 +60517,10 @@ WARNING:Pack:2780 - The register
    any IO element.
 WARNING:Pack:2780 - The register
    "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_2" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register
+   "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3" has the property
    IOB=TRUE, but it did not join an IO component because it is not connected to
    any IO element.
 WARNING:Pack:2780 - The register
@@ -65219,12 +65716,12 @@ WARNING:Pack:1406 - The I/O component RAM_D<29> has conflicting DRIVE property
 WARNING:Pack:266 - The function generator
    u2p_c/vita_rx_chain0/vita_rx_control/ibs_state_mux0000<0>21 failed to merge
    with F5 multiplexer
-   u2p_c/vita_rx_chain0/vita_rx_control/ibs_state_mux0000<2>15_f5.  There is a
+   u2p_c/vita_rx_chain0/vita_rx_control/ibs_state_mux0000<2>14_f5.  There is a
    conflict for the FXMUX.  The design will exhibit suboptimal timing.
 WARNING:Pack:266 - The function generator
    u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_mux0000<0>21 failed to merge
    with F5 multiplexer
-   u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_mux0000<2>15_f5.  There is a
+   u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_mux0000<2>14_f5.  There is a
    conflict for the FXMUX.  The design will exhibit suboptimal timing.
 Running delay-based LUT packing...
 Updating timing models...
@@ -65330,108 +65827,189 @@ Delay Expression: D_DCM_DLL_LOWF_MAXPERIOD_CLKIN
       SyncFlag = false
       SensePosFlag = false
       ExtraTag = "DCM_DFS_CLK_OUTPUTS"
+WARNING:Pack:1653 - At least one timing constraint is impossible to meet because
+   component delays alone exceed the constraint. A timing constraint summary
+   below shows the failing constraints (preceded with an Asterisk (*)). Please
+   use the Timing Analyzer (GUI) or TRCE (command line) with the Mapped NCD and
+   PCF files to identify which constraints and paths are failing because of the
+   component delays alone. If the failing path(s) is mapped to Xilinx components
+   as expected, consider relaxing the constraint. If it is not mapped to
+   components as expected, re-evaluate your HDL and how synthesis is optimizing
+   the path. To allow the tools to bypass this error, set the environment
+   variable XIL_TIMING_ALLOW_IMPOSSIBLE to 1.
+
+
+   For more information about the Timing Analyzer, consult the Xilinx Timing
+   Analyzer Reference manual; for more information on TRCE, consult the Xilinx
+   Command Line Tools User Guide "TRACE" chapter.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_dcm_out = PERIOD TIMEGRP "dcm_out" TS_ | SETUP       |   -49.839ns|    59.839ns|      45|     2089065
+  clk_fpga_p HIGH 50%                       | HOLD        |     0.344ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+* TS_clk_fpga_p = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     9.129ns|     0.871ns|       0|           0
+  p" 10 ns HIGH 50%                         | HOLD        |    -0.631ns|            |       1|         631
+                                            | MINLOWPULSE |     5.200ns|     4.800ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_to_mac = PERIOD TIMEGRP "clk_to_ma | SETUP       |     1.570ns|     6.430ns|       0|           0
+  c" 8 ns HIGH 50%                          | HOLD        |     0.367ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_GMII_RX_CLK = PERIOD TIMEGRP "GMII_RX_ | SETUP       |     2.764ns|     5.236ns|       0|           0
+  CLK" 8 ns HIGH 50%                        | HOLD        |     0.344ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_ser_rx_clk = PERIOD TIMEGRP "ser_rx_cl | SETUP       |     4.560ns|     5.440ns|       0|           0
+  k" 10 ns HIGH 50%                         | HOLD        |     0.344ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_div_to_dsp_clk = MAXDELAY FROM TIM | SETUP       |     6.863ns|     3.137ns|       0|           0
+  EGRP "clk_div" TO TIMEGRP "dcm_out" 10 ns | HOLD        |     0.339ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk_div = PERIOD TIMEGRP "clk_div" TS_ | SETUP       |     7.553ns|    10.524ns|       0|           0
+  clk_fpga_p * 2 HIGH 50%                   | HOLD        |     0.294ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clk270_100 = PERIOD TIMEGRP "clk270_10 | MINPERIOD   |     8.752ns|     1.248ns|       0|           0
+  0" TS_clk_fpga_p PHASE 7.5 ns HIGH 50%    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_clk_fpga_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_clk_fpga_p                  |     10.000ns|      4.800ns|     59.839ns|            1|           45|           
+6|2708084345919942460866297856|
+| TS_dcm_out                    |     10.000ns|     59.839ns|          N/A|           45|           
+0|2708084345919942460866297856|            0|
+| TS_clk270_100                 |     10.000ns|      1.248ns|          N/A|            0|            0|            0|   
+        0|
+| TS_clk_div                    |     20.000ns|     10.524ns|          N/A|            0|            0|       720424|   
+        0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+2 constraints not met.
+
+
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 3 mins 8 secs 
-Total CPU  time at the beginning of Placer: 2 mins 12 secs 
+Total REAL time at the beginning of Placer: 2 mins 17 secs 
+Total CPU  time at the beginning of Placer: 1 mins 28 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:a9794c20) REAL time: 3 mins 25 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:33d724e4) REAL time: 2 mins 53 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:a9794c20) REAL time: 3 mins 25 secs 
+Phase 2.7  Design Feasibility Check (Checksum:33d724e4) REAL time: 2 mins 55 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:a9794c20) REAL time: 3 mins 25 secs 
+Phase 3.31  Local Placement Optimization (Checksum:33d724e4) REAL time: 2 mins 55 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-WARNING:Place:619 - This design is using a Side-BUFG site due to placement
-   constraints on a BUFG, DCM, clock IOB or the loads of these components. It is
-   recommended that Top and Bottom BUFG sites be used instead of Side-BUFG sites
-   whenever possible because they can reach every clock region on the device.
-   Side-BUFG sites can reach only clock regions on the same side of the device
-   and also preclude the use of certain Top and Bottom BUFGs in the same clock
+WARNING:Place:619 - This design is using a Side-BUFG site due to placement constraints on a BUFG, DCM, clock IOB or the
+   loads of these components. It is recommended that Top and Bottom BUFG sites be used instead of Side-BUFG sites
+   whenever possible because they can reach every clock region on the device. Side-BUFG sites can reach only clock
+   regions on the same side of the device and also preclude the use of certain Top and Bottom BUFGs in the same clock
    region.
-Phase 4.2  Initial Clock and IO Placement (Checksum:fb7ab5f8) REAL time: 3 mins 48 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:acb90d64) REAL time: 3 mins 36 secs 
 
 
-........................
-..............................................................................
+.........................
+.........................................................................................................
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:fb7ab5f8) REAL time: 4 mins 57 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:acb90d64) REAL time: 4 mins 52 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:fb7ab5f8) REAL time: 4 mins 57 secs 
+Phase 6.36  Local Placement Optimization (Checksum:acb90d64) REAL time: 4 mins 52 secs 
 
 Phase 7.3  Local Placement Optimization
 
-Phase 7.3  Local Placement Optimization (Checksum:e53c5fc8) REAL time: 4 mins 59 secs 
+Phase 7.3  Local Placement Optimization (Checksum:586db16c) REAL time: 4 mins 53 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:e53c5fc8) REAL time: 4 mins 59 secs 
+Phase 8.5  Local Placement Optimization (Checksum:586db16c) REAL time: 4 mins 53 secs 
 
 Phase 9.8  Global Placement
-..................................
-.............................................................................................................................................................................
-....
-.......................................................................................................................................................................................
+......................................
+...............................................................................................................................................................................
+...
+............................................................................................................................................................................................
 ................
 ................
-................
-.......................................................................................................
-Phase 9.8  Global Placement (Checksum:79ff811e) REAL time: 9 mins 44 secs 
+.......................
+........................................................................................
+Phase 9.8  Global Placement (Checksum:2d9efd11) REAL time: 7 mins 32 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:79ff811e) REAL time: 9 mins 46 secs 
+Phase 10.5  Local Placement Optimization (Checksum:2d9efd11) REAL time: 7 mins 33 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:da685457) REAL time: 15 mins 46 secs 
+Phase 11.18  Placement Optimization (Checksum:466cf708) REAL time: 11 mins 51 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:da685457) REAL time: 15 mins 48 secs 
+Phase 12.5  Local Placement Optimization (Checksum:466cf708) REAL time: 11 mins 52 secs 
 
-Total REAL time to Placer completion: 16 mins 11 secs 
-Total CPU  time to Placer completion: 15 mins 15 secs 
+Total REAL time to Placer completion: 12 mins 27 secs 
+Total CPU  time to Placer completion: 9 mins 35 secs 
 Running physical synthesis...
-
+................................
 Physical synthesis completed.
 Running post-placement packing...
-WARNING:PhysDesignRules:367 - The signal <DAC_LOCK_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <CLK_FUNC_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <GMII_COL_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <GMII_CRS_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <GMII_TX_CLK_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <exp_user_in_n_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <exp_user_in_p_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <ADC_clkout_n_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <ADC_clkout_p_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <DAC_LOCK_IBUF> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal <CLK_FUNC_IBUF> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal <GMII_COL_IBUF> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal <GMII_CRS_IBUF> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal <GMII_TX_CLK_IBUF> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <exp_user_in_n_IBUF> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <exp_user_in_p_IBUF> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ADC_clkout_n_IBUF> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <ADC_clkout_p_IBUF> is incomplete. The signal does not drive any load pins in
+   the design.
 
 Design Summary
 --------------
 
 Design Summary:
 Number of errors:      0
-Number of warnings: 18555
+Number of warnings: 18695
 Logic Utilization:
-  Number of Slice Flip Flops:        19,204 out of  47,744   40%
-  Number of 4 input LUTs:            29,348 out of  47,744   61%
+  Number of Slice Flip Flops:        19,430 out of  47,744   40%
+  Number of 4 input LUTs:            29,868 out of  47,744   62%
 Logic Distribution:
-  Number of occupied Slices:         18,742 out of  23,872   78%
-    Number of Slices containing only related logic:  18,742 out of  18,742 100%
-    Number of Slices containing unrelated logic:          0 out of  18,742   0%
+  Number of occupied Slices:         18,426 out of  23,872   77%
+    Number of Slices containing only related logic:  18,426 out of  18,426 100%
+    Number of Slices containing unrelated logic:          0 out of  18,426   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:      30,783 out of  47,744   64%
-    Number used as logic:            25,511
-    Number used as a route-thru:      1,435
+  Total Number of 4 input LUTs:      31,457 out of  47,744   65%
+    Number used as logic:            26,031
+    Number used as a route-thru:      1,589
     Number used for Dual Port RAMs:     512
       (Two LUTs used per Dual Port RAM)
     Number used as Shift registers:   3,325
@@ -65451,14 +66029,14 @@ Logic Distribution:
   Number of DCMs:                         1 out of       8   12%
   Number of ICAPs:                        1 out of       1  100%
   Number of DSP48As:                     27 out of     126   21%
-  Number of RAMB16BWERs:                 31 out of     126   24%
+  Number of RAMB16BWERs:                 33 out of     126   26%
   Number of ICAP_SPARTAN3As:              1 out of       1  100%
 
-Average Fanout of Non-Clock Nets:                3.38
+Average Fanout of Non-Clock Nets:                3.36
 
-Peak Memory Usage:  699 MB
-Total REAL time to MAP completion:  16 mins 50 secs 
-Total CPU time to MAP completion:   15 mins 53 secs 
+Peak Memory Usage:  735 MB
+Total REAL time to MAP completion:  14 mins 19 secs 
+Total CPU time to MAP completion:   10 mins 15 secs 
 
 Mapping completed.
 See MAP report file "u2plus_map.mrp" for details.

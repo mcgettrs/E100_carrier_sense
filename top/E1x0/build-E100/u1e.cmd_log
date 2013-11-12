@@ -177,3 +177,60 @@ map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 
 par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
 trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
 bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 
+xst -intstyle ise -ifn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.xst" -ofn "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/build-E100/u1e.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../carriersense/coregen -nt timestamp -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/u1e.ucf -uc /home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/E1x0/timing.ucf -p xc3sd1800a-cs484-4 u1e_cs.ngc u1e.ngd  
+map -intstyle ise -p xc3sd1800a-cs484-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u1e_map.ncd u1e.ngd u1e.pcf 
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+trce -intstyle ise -e 10 -s 4 -n 3 -fastpaths -xml u1e.twx u1e.ncd -o u1e.twr u1e.pcf 
+bitgen -intstyle ise -f u1e.ut u1e.ncd 

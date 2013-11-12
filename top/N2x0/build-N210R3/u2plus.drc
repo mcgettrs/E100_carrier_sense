@@ -1,7 +1,7 @@
-Release 13.2 Drc O.61xd (lin)
+Release 13.4 Drc O.87xd (lin)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Wed Oct 26 06:44:46 2011
+Wed Nov 21 18:37:30 2012
 
 drc -z u2plus.ncd u2plus.pcf
 

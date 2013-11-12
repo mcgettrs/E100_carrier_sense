@@ -33,7 +33,7 @@ module vita_tx_chain
     input [35:0] tx_data_i, input tx_src_rdy_i, output tx_dst_rdy_o,
     output [35:0] err_data_o, output err_src_rdy_o, input err_dst_rdy_i,
     output [23:0] tx_i, output [23:0] tx_q,
-    output underrun, output run,
+    output underrun, output run, output data_waiting, output burst_done,
     output [31:0] debug);
 
    localparam MAXCHAN = 1;
@@ -118,5 +118,6 @@ module vita_tx_chain
       .data0_i(err_data_int), .src0_rdy_i(err_src_rdy_int), .dst0_rdy_o(err_dst_rdy_int),
       .data1_i(flow_data), .src1_rdy_i(flow_src_rdy), .dst1_rdy_o(flow_dst_rdy),
       .data_o(err_data_o), .src_rdy_o(err_src_rdy_o), .dst_rdy_i(err_dst_rdy_i));
-   
+  assign data_waiting = tx1_src_rdy; 
+  assign burst_done = packet_consumed;
 endmodule // vita_tx_chain

@@ -1,5 +1,4 @@
 # Output products list for <icon_pro>
-icon_pro.ejp
 icon_pro.gise
 icon_pro.ngc
 icon_pro.vhd

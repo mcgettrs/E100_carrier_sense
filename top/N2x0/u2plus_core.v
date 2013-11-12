@@ -614,7 +614,15 @@ module u2plus_core
      (.clk(dsp_clk),.rst(dsp_rst),
       .strobe(set_stb_dsp),.addr(set_addr_dsp),.in(set_data_dsp),
       .out(),.changed(clear_rx0));
-
+    wire [31:0] present_nextcount;
+	 wire present_next;
+	 
+	cs_component carrier_sense (.clk(dsp_clk), .rst(dsp_rst), .real_value(sample_rx0[15:0]),
+	.img_value(sample_rx0[31:16]), .run(run_rx0), .strobe(strobe_rx0),
+	.present_next(present_next) , .present_nextcount(present_nextcount),
+	.threshold_out(threshold_out));
+	
+	
    vita_rx_chain #(.BASE(SR_RX_CTRL0),.UNIT(0),.FIFOSIZE(DSP_RX_FIFOSIZE)) vita_rx_chain0
      (.clk(dsp_clk), .reset(dsp_rst), .clear(clear_rx0),
       .set_stb(set_stb_dsp),.set_addr(set_addr_dsp),.set_data(set_data_dsp),
@@ -702,7 +710,10 @@ module u2plus_core
       .err_data_o(tx_err_data), .err_src_rdy_o(tx_err_src_rdy), .err_dst_rdy_i(tx_err_dst_rdy),
       .tx_i(tx_i),.tx_q(tx_q),
       .underrun(underrun), .run(run_tx),
-      .debug(debug_vt));
+      .debug(debug_vt),
+		.carrier_present(present_next),
+		.run_rx(run_rx0),
+		.carrier_present_nextcount(present_nextcount));
 
    tx_frontend #(.BASE(SR_TX_FRONT)) tx_frontend
      (.clk(dsp_clk), .rst(dsp_rst),

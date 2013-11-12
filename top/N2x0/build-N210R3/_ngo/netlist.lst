@@ -1,7 +1,9 @@
-/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.ngc 1319605563
-../../../coregen/fifo_xlnx_16x40_2clk.ngc 1319601042
-../../../coregen/fifo_xlnx_2Kx36_2clk.ngc 1319601042
-../../../coregen/fifo_xlnx_512x36_2clk.ngc 1319601042
-../../../coregen/fifo_xlnx_512x36_2clk_prog_full.ngc 1319601042
-../../../coregen/fifo_xlnx_32x36_2clk.ngc 1319601042
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/top/N2x0/build-N210R3/u2plus.ngc 1353521690
+../../../coregen/fifo_xlnx_16x40_2clk.ngc 1353516297
+../../../coregen/fifo_xlnx_2Kx36_2clk.ngc 1353516297
+../../../coregen/fifo_xlnx_512x36_2clk.ngc 1353516297
+ipcore_dir/cordic_in.ngc 1353520327
+ipcore_dir/fifo_in.ngc 1353520914
+../../../coregen/fifo_xlnx_512x36_2clk_prog_full.ngc 1353516297
+../../../coregen/fifo_xlnx_32x36_2clk.ngc 1353516297
 OK

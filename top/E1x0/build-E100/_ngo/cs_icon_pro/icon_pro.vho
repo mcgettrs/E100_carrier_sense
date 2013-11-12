@@ -5,14 +5,15 @@
 --   ____  ____
 --  /   /\/   /
 -- /___/  \  /    Vendor     : Xilinx
--- \   \   \/     Version    : 1.0
+-- \   \   \/     Version    : 13.4
 --  \   \         Application: Xilinx CORE Generator
 --  /   /         Filename   : icon_pro.vho
--- /___/   /\     Timestamp  : Tue Jan 17 19:53:39 Eastern Standard Time 2012
+-- /___/   /\     Timestamp  : Wed Nov 21 16:54:24 GMT 2012
 -- \   \  /  \
 --  \___\/\___\
 --
 -- Design Name: ISE Instantiation template
+-- Component Identifier: xilinx.com:ip:chipscope_icon:1.06.a
 -------------------------------------------------------------------------------
 -- The following code must appear in the VHDL architecture header:
 

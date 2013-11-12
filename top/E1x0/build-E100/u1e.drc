@@ -1,13 +1,25 @@
-Release 13.1 Drc O.40d (nt)
+Release 13.4 Drc O.87xd (lin)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Thu Feb 16 10:39:47 2012
+Wed Jan 23 16:21:45 2013
 
 drc -z u1e.ncd u1e.pcf
 
 WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <RXSYNC_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <EM_NCS5_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <overo_gpio127_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <overo_gpio170_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <overo_gpio163_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <overo_gpio176_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <EM_WAIT0_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <overo_gpio0_IBUF> is incomplete. The
@@ -21,18 +33,6 @@ WARNING:PhysDesignRules:367 - The signal <overo_gpio14_IBUF> is incomplete. The
 WARNING:PhysDesignRules:367 - The signal <overo_gpio23_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <overo_gpio64_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <RXSYNC_IBUF> is incomplete. The signal
-   does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <EM_NCS5_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <overo_gpio127_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <overo_gpio170_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <overo_gpio163_IBUF> is incomplete. The
-   signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <overo_gpio176_IBUF> is incomplete. The
    signal does not drive any load pins in the design.
 DRC detected 0 errors and 14 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map O.61xd on Wed Oct 26 06:23:49 2011
+// Written by: Map O.87xd on Wed Nov 21 18:29:45 2012
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -765,6 +765,26 @@ PIN
         = BEL
         "u2p_c/vita_rx_chain1/dsp0_framer36/dfifo/middle_fifo/ram/Mram_ram2"
         PINNAME CLKB;
+PIN
+        u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>
+        = BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram"
+        PINNAME CLKA;
+PIN
+        u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>
+        = BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram"
+        PINNAME CLKB;
+PIN
+        u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>
+        = BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram"
+        PINNAME CLKA;
+PIN
+        u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>
+        = BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram"
+        PINNAME CLKB;
 PIN u2p_c/packet_router/cpu_out_fifo/middle_fifo/ram/Mram_ram_pins<18> = BEL
         "u2p_c/packet_router/cpu_out_fifo/middle_fifo/ram/Mram_ram" PINNAME
         CLKA;
@@ -824,20 +844,26 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/serdes/serdes_fc_tx/state_11" BEL
         "u2p_c/serdes/serdes_fc_tx/state_10" BEL
         "u2p_c/serdes/serdes_fc_tx/state_9" BEL
+        "u2p_c/serdes/serdes_fc_tx/state_8" BEL
         "u2p_c/serdes/serdes_fc_tx/state_7" BEL
         "u2p_c/serdes/serdes_fc_tx/state_6" BEL
-        "u2p_c/serdes/serdes_fc_tx/state_8" BEL
         "u2p_c/serdes/serdes_fc_tx/state_5" BEL
         "u2p_c/serdes/serdes_fc_tx/state_4" BEL
         "u2p_c/serdes/serdes_fc_tx/state_3" BEL
         "u2p_c/serdes/serdes_fc_tx/state_2" BEL
-        "u2p_c/serdes/serdes_fc_tx/state_0" BEL
         "u2p_c/serdes/serdes_fc_tx/state_1" BEL
+        "u2p_c/serdes/serdes_fc_tx/state_0" BEL
         "u2p_c/serdes/serdes_fc_tx/inhibit_tx" BEL "u2p_c/underrun_1s/del_in"
         BEL "u2p_c/underrun_1s/sendit" BEL "u2p_c/overrun_1s/del_in" BEL
         "u2p_c/overrun_1s/sendit" BEL "u2p_c/pps_1s/del_in" BEL
-        "u2p_c/pps_1s/sendit" BEL "u2p_c/sr_clear_rx0/changed" BEL
-        "u2p_c/sr_clear_rx1/changed" BEL
+        "u2p_c/pps_1s/sendit" BEL "u2p_c/run_rx0_d1" BEL
+        "u2p_c/sr_clear_rx0/changed" BEL "u2p_c/sr_clear_rx1/changed" BEL
+        "u2p_c/carrier_sense/uut1/state_2" BEL
+        "u2p_c/carrier_sense/uut1/state_1" BEL
+        "u2p_c/carrier_sense/uut1/state_0" BEL
+        "u2p_c/carrier_sense/uut1/rst_dev" BEL
+        "u2p_c/carrier_sense/uut1/wr_en" BEL
+        "u2p_c/carrier_sense/uut1/en_comp" BEL
         "u2p_c/serdes/serdes_fc_rx/countdown_15" BEL
         "u2p_c/serdes/serdes_fc_rx/countdown_14" BEL
         "u2p_c/serdes/serdes_fc_rx/countdown_13" BEL
@@ -1012,6 +1038,115 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/simple_gemac_wrapper/rx_2clk_fifo/shortfifo2/a_0" BEL
         "u2p_c/simple_gemac_wrapper/rx_2clk_fifo/shortfifo2/empty" BEL
         "u2p_c/simple_gemac_wrapper/rx_2clk_fifo/shortfifo2/full" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/Comp" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_31" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_30" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_29" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_28" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_27" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_26" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_25" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_24" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_23" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_22" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_21" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_20" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_19" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_18" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_17" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_16" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_15" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_14" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_13" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_12" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_11" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_10" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_9" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_8" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_7" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_6" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_5" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_4" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_3" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_2" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_1" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/accum_0" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_9" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_8" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_7" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_6" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_5" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_4" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_3" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_2" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_1" BEL
+        "u2p_c/carrier_sense/uut2/accumulator_in_sample/counter_0" BEL
+        "u2p_c/carrier_sense/uut2/present_next" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_31" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_30" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_29" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_28" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_27" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_26" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_25" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_24" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_23" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_22" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_21" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_20" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_19" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_18" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_17" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_16" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_15" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_14" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_13" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_12" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_11" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_10" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_9" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_8" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_7" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_6" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_5" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_4" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_3" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_2" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_1" BEL
+        "u2p_c/carrier_sense/uut2/stored_out_out_0" BEL
+        "u2p_c/carrier_sense/uut2/ready_sample" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_15" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_14" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_13" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_12" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_11" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_10" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_9" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_8" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_7" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_6" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_5" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_4" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_3" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_2" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_1" BEL
+        "u2p_c/carrier_sense/uut2/img_value_delay_0" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_15" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_14" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_13" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_12" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_11" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_10" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_9" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_8" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_7" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_6" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_5" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_4" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_3" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_2" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_1" BEL
+        "u2p_c/carrier_sense/uut2/real_value_delay_0" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/sr_time_l/out_0" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/sr_time_l/out_1" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/sr_time_l/out_2" BEL
@@ -1488,6 +1623,7 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/rx_sample_fifo/a_2" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/rx_sample_fifo/a_1" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/rx_sample_fifo/a_0" BEL
+        "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_2" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_1" BEL
         "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_0" BEL
@@ -2247,6 +2383,7 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/rx_sample_fifo/a_2" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/rx_sample_fifo/a_1" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/rx_sample_fifo/a_0" BEL
+        "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_2" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_1" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_0" BEL
@@ -2993,26 +3130,26 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/time_64bit/vita_time_6" BEL "u2p_c/time_64bit/vita_time_5" BEL
         "u2p_c/time_64bit/vita_time_4" BEL "u2p_c/time_64bit/vita_time_3" BEL
         "u2p_c/time_64bit/vita_time_2" BEL "u2p_c/time_64bit/vita_time_1" BEL
-        "u2p_c/time_64bit/vita_time_0" BEL "u2p_c/time_64bit/seconds_31" BEL
-        "u2p_c/time_64bit/seconds_30" BEL "u2p_c/time_64bit/seconds_29" BEL
-        "u2p_c/time_64bit/seconds_28" BEL "u2p_c/time_64bit/seconds_27" BEL
-        "u2p_c/time_64bit/seconds_26" BEL "u2p_c/time_64bit/seconds_25" BEL
-        "u2p_c/time_64bit/seconds_24" BEL "u2p_c/time_64bit/seconds_23" BEL
-        "u2p_c/time_64bit/seconds_22" BEL "u2p_c/time_64bit/seconds_21" BEL
-        "u2p_c/time_64bit/seconds_20" BEL "u2p_c/time_64bit/seconds_19" BEL
-        "u2p_c/time_64bit/seconds_18" BEL "u2p_c/time_64bit/seconds_17" BEL
-        "u2p_c/time_64bit/seconds_16" BEL "u2p_c/time_64bit/seconds_15" BEL
-        "u2p_c/time_64bit/seconds_14" BEL "u2p_c/time_64bit/seconds_13" BEL
-        "u2p_c/time_64bit/seconds_12" BEL "u2p_c/time_64bit/seconds_11" BEL
-        "u2p_c/time_64bit/seconds_10" BEL "u2p_c/time_64bit/seconds_9" BEL
-        "u2p_c/time_64bit/seconds_8" BEL "u2p_c/time_64bit/seconds_7" BEL
-        "u2p_c/time_64bit/seconds_6" BEL "u2p_c/time_64bit/seconds_5" BEL
-        "u2p_c/time_64bit/seconds_4" BEL "u2p_c/time_64bit/seconds_3" BEL
-        "u2p_c/time_64bit/seconds_2" BEL "u2p_c/time_64bit/seconds_1" BEL
-        "u2p_c/time_64bit/seconds_0" BEL "u2p_c/time_64bit/good_sync" BEL
-        "u2p_c/time_64bit/set_on_next_pps" BEL "u2p_c/time_64bit/pps_del_1"
-        BEL "u2p_c/time_64bit/pps_del_0" BEL "u2p_c/time_64bit/pps_reg_n" BEL
-        "u2p_c/time_64bit/pps_reg_p" BEL
+        "u2p_c/time_64bit/vita_time_0" BEL "u2p_c/time_64bit/ticks_0" BEL
+        "u2p_c/time_64bit/seconds_31" BEL "u2p_c/time_64bit/seconds_30" BEL
+        "u2p_c/time_64bit/seconds_29" BEL "u2p_c/time_64bit/seconds_28" BEL
+        "u2p_c/time_64bit/seconds_27" BEL "u2p_c/time_64bit/seconds_26" BEL
+        "u2p_c/time_64bit/seconds_25" BEL "u2p_c/time_64bit/seconds_24" BEL
+        "u2p_c/time_64bit/seconds_23" BEL "u2p_c/time_64bit/seconds_22" BEL
+        "u2p_c/time_64bit/seconds_21" BEL "u2p_c/time_64bit/seconds_20" BEL
+        "u2p_c/time_64bit/seconds_19" BEL "u2p_c/time_64bit/seconds_18" BEL
+        "u2p_c/time_64bit/seconds_17" BEL "u2p_c/time_64bit/seconds_16" BEL
+        "u2p_c/time_64bit/seconds_15" BEL "u2p_c/time_64bit/seconds_14" BEL
+        "u2p_c/time_64bit/seconds_13" BEL "u2p_c/time_64bit/seconds_12" BEL
+        "u2p_c/time_64bit/seconds_11" BEL "u2p_c/time_64bit/seconds_10" BEL
+        "u2p_c/time_64bit/seconds_9" BEL "u2p_c/time_64bit/seconds_8" BEL
+        "u2p_c/time_64bit/seconds_7" BEL "u2p_c/time_64bit/seconds_6" BEL
+        "u2p_c/time_64bit/seconds_5" BEL "u2p_c/time_64bit/seconds_4" BEL
+        "u2p_c/time_64bit/seconds_3" BEL "u2p_c/time_64bit/seconds_2" BEL
+        "u2p_c/time_64bit/seconds_1" BEL "u2p_c/time_64bit/seconds_0" BEL
+        "u2p_c/time_64bit/good_sync" BEL "u2p_c/time_64bit/set_on_next_pps"
+        BEL "u2p_c/time_64bit/pps_del_1" BEL "u2p_c/time_64bit/pps_del_0" BEL
+        "u2p_c/time_64bit/pps_reg_n" BEL "u2p_c/time_64bit/pps_reg_p" BEL
         "u2p_c/serdes/serdes_rx/serdes_rx_fifo/shortfifo2/full" BEL
         "u2p_c/serdes/serdes_rx/serdes_rx_fifo/shortfifo2/empty" BEL
         "u2p_c/serdes/serdes_rx/serdes_rx_fifo/shortfifo2/a_0" BEL
@@ -11299,8 +11436,26 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_tx_chain/trigger_context_pkt/sr_packets/out_0" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/late_qual" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/run" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_3" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_1" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_5" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_16" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_17" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_18" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_19" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_20" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_21" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_22" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_23" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_24" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_25" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_26" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_27" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_28" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_29" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_30" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_31" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/packet_consumed" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/late_del" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/countdown_0" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/countdown_1" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/countdown_2" BEL
@@ -15432,6 +15587,7 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/dsp_core_rx0/cic_strober/counter_5" BEL
         "u2p_c/dsp_core_rx0/cic_strober/counter_6" BEL
         "u2p_c/dsp_core_rx0/cic_strober/counter_7" BEL
+        "u2p_c/dsp_core_rx0/cic_strober/counter_8" BEL
         "u2p_c/dsp_core_rx0/sr_3/out_0" BEL "u2p_c/dsp_core_rx0/sr_3/out_1"
         BEL "u2p_c/dsp_core_rx0/adc_i_mux_23" BEL
         "u2p_c/dsp_core_rx0/adc_i_mux_22" BEL
@@ -19528,6 +19684,7 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/dsp_core_rx1/cic_strober/counter_5" BEL
         "u2p_c/dsp_core_rx1/cic_strober/counter_6" BEL
         "u2p_c/dsp_core_rx1/cic_strober/counter_7" BEL
+        "u2p_c/dsp_core_rx1/cic_strober/counter_8" BEL
         "u2p_c/dsp_core_rx1/adc_i_mux_23" BEL
         "u2p_c/dsp_core_rx1/adc_i_mux_22" BEL
         "u2p_c/dsp_core_rx1/adc_i_mux_21" BEL
@@ -19550,6 +19707,23 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/dsp_core_rx1/adc_i_mux_1" BEL "u2p_c/dsp_core_rx1/adc_i_mux_0"
         BEL "u2p_c/rx_frontend/.rx_dcoffset_q/fixed" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_17" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_15" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_14" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_13" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_12" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_11" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_10" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_8" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_7" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_6" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_5" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_4" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_3" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_2" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_1" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_0" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_q/integrator_0" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_q/integrator_1" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_q/integrator_2" BEL
@@ -19665,6 +19839,23 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/add2_and_clip_reg/sum_0"
         BEL "u2p_c/rx_frontend/.rx_dcoffset_i/fixed" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_17" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_15" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_14" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_13" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_12" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_11" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_10" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_8" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_7" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_6" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_5" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_4" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_3" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_2" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_1" BEL
+        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_0" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_i/integrator_0" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_i/integrator_1" BEL
         "u2p_c/rx_frontend/.rx_dcoffset_i/integrator_2" BEL
@@ -19869,7 +20060,39 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         BEL "DACA_1" BEL "DACA_2" BEL "DACA_3" BEL "DACA_4" BEL "DACA_5" BEL
         "DACA_6" BEL "DACA_7" BEL "DACA_8" BEL "DACA_9" BEL "DACA_10" BEL
         "DACA_11" BEL "DACA_12" BEL "DACA_13" BEL "DACA_14" BEL "DACA_15" BEL
-        "u2p_c/run_rx1_d1" BEL "u2p_c/run_rx0_d1" BEL
+        "u2p_c/run_rx1_d1" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_0" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_1" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_2" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_3" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_4" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_5" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_6" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_7" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_8" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_9" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_10" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_11" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_12" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_13" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_14" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_15" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_16" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_17" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_18" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_19" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_20" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_21" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_22" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_23" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_24" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_25" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_26" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_27" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_28" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_29" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_30" BEL
+        "u2p_c/carrier_sense/uut2/u8_compare_threshold/B_out_31" BEL
         "u2p_c/ext_fifo_i1/refill_randomizer_i1/count_0" BEL
         "u2p_c/ext_fifo_i1/refill_randomizer_i1/count_1" BEL
         "u2p_c/ext_fifo_i1/refill_randomizer_i1/count_2" BEL
@@ -20015,6 +20238,22 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_2" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_1" BEL
         "u2p_c/vita_rx_chain1/vita_rx_control/ibs_state_0" BEL
+        "u2p_c/time_64bit/ticks_31" BEL "u2p_c/time_64bit/ticks_30" BEL
+        "u2p_c/time_64bit/ticks_29" BEL "u2p_c/time_64bit/ticks_28" BEL
+        "u2p_c/time_64bit/ticks_27" BEL "u2p_c/time_64bit/ticks_26" BEL
+        "u2p_c/time_64bit/ticks_25" BEL "u2p_c/time_64bit/ticks_24" BEL
+        "u2p_c/time_64bit/ticks_23" BEL "u2p_c/time_64bit/ticks_22" BEL
+        "u2p_c/time_64bit/ticks_21" BEL "u2p_c/time_64bit/ticks_20" BEL
+        "u2p_c/time_64bit/ticks_19" BEL "u2p_c/time_64bit/ticks_18" BEL
+        "u2p_c/time_64bit/ticks_17" BEL "u2p_c/time_64bit/ticks_16" BEL
+        "u2p_c/time_64bit/ticks_15" BEL "u2p_c/time_64bit/ticks_14" BEL
+        "u2p_c/time_64bit/ticks_13" BEL "u2p_c/time_64bit/ticks_12" BEL
+        "u2p_c/time_64bit/ticks_11" BEL "u2p_c/time_64bit/ticks_10" BEL
+        "u2p_c/time_64bit/ticks_9" BEL "u2p_c/time_64bit/ticks_8" BEL
+        "u2p_c/time_64bit/ticks_7" BEL "u2p_c/time_64bit/ticks_6" BEL
+        "u2p_c/time_64bit/ticks_5" BEL "u2p_c/time_64bit/ticks_4" BEL
+        "u2p_c/time_64bit/ticks_3" BEL "u2p_c/time_64bit/ticks_2" BEL
+        "u2p_c/time_64bit/ticks_1" BEL
         "u2p_c/vita_rx_chain0/dsp0_framer36/dfifo/middle_fifo/read_state_1"
         BEL
         "u2p_c/vita_rx_chain1/dsp0_framer36/dfifo/middle_fifo/read_state_1"
@@ -20041,10 +20280,14 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/cic_strober/counter_6" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/cic_strober/counter_5" BEL
         "u2p_c/vita_tx_chain/mux_err_and_flow/state_0" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/send_error" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/ibs_state_0" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/ibs_state_1" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/ibs_state_2" BEL
         "u2p_c/vita_tx_chain/vita_tx_control/send_ack" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_0" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_2" BEL
+        "u2p_c/vita_tx_chain/vita_tx_control/error_code_4" BEL
         "u2p_c/packet_router/cpu_to_wb/rd_state_FSM_FFd1" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/small_hb_interp_q/add_outer/add2_n_rnd/sum_int<0>_FRB"
         BEL
@@ -20229,26 +20472,7 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_tx_chain/vita_tx_deframer/next_seqnum<29>_FRB" BEL
         "u2p_c/vita_tx_chain/vita_tx_deframer/next_seqnum<30>_FRB" BEL
         "u2p_c/vita_tx_chain/vita_tx_deframer/next_seqnum<31>_FRB" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and00004_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and00009_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000021_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000026_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/round_sd/round_sum/out_and000031_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and00004_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and00009_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000021_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000026_FRB"
-        BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/round_sd/round_sum/out_and000031_FRB"
-        BEL "u2p_c/packet_router/udp_prot_eng_tx/ip_length<2>_FRB" BEL
+        "u2p_c/packet_router/udp_prot_eng_tx/ip_length<2>_FRB" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/ip_length<3>_FRB" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/ip_length<4>_FRB" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/ip_length<5>_FRB" BEL
@@ -20275,7 +20499,6 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/udp_length<13>_FRB" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/udp_length<14>_FRB" BEL
         "u2p_c/packet_router/udp_prot_eng_tx/udp_length<15>_FRB" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/late_del_BRB0" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/small_hb_interp_q/final_clip/out_0_BRB0"
         BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/small_hb_interp_q/final_clip/out_0_BRB1"
@@ -20347,73 +20570,9 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/small_hb_interp_i/final_clip/out_15_BRB0"
         BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/small_hb_interp_i/final_clip/out_16_BRB0"
-        BEL "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB0" BEL
-        "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB1" BEL
-        "u2p_c/vita_rx_chain0/vita_rx_control/commandfifo/a_3_BRB2" BEL
-        "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB0" BEL
-        "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB1" BEL
-        "u2p_c/vita_rx_chain1/vita_rx_control/commandfifo/a_3_BRB2" BEL
-        "u2p_c/time_64bit/time_sender/dataout_reg_0_BRB0" BEL
+        BEL "u2p_c/time_64bit/time_sender/dataout_reg_0_BRB0" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_0_BRB1" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_0_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB1" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_16_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_15_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_14_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_13_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_12_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_11_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_10_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_9_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_8_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_7_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_6_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_5_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_4_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_3_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_2_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_1_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_q/add2_and_clip_reg/sum_0_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB1" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_16_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_15_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_14_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_13_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_12_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_11_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_10_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_9_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_8_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_7_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_6_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_5_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_4_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_3_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_2_BRB0" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_1_BRB2" BEL
-        "u2p_c/rx_frontend/.rx_dcoffset_i/add2_and_clip_reg/sum_0_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/send_error_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_0_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_1_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_2_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_4_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_5_BRB2" BEL
         "u2p_c/time_64bit/time_receiver/sync_rcvd_pre_BRB0" BEL
         "u2p_c/time_64bit/time_receiver/sync_rcvd_pre_BRB1" BEL
         "u2p_c/time_64bit/time_receiver/sync_rcvd_pre_BRB2" BEL
@@ -20447,40 +20606,6 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         BEL "u2p_c/tx_frontend/dac_a_0_BRB3" BEL
         "u2p_c/tx_frontend/dac_b_15_BRB0" BEL
         "u2p_c/tx_frontend/dac_b_15_BRB1" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB3" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_17_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_17_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_18_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_18_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_19_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_19_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_20_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_20_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_21_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_21_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_22_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_22_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_23_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_23_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_24_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_24_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_25_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_25_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_26_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_26_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_27_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_27_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_28_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_28_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_29_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_29_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_30_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_30_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_31_BRB0" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_31_BRB2" BEL
-        "u2p_c/vita_tx_chain/vita_tx_control/error_code_16_BRB4" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_1_BRB1" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_1_BRB2" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_2_BRB1" BEL
@@ -20498,29 +20623,6 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_8_BRB1" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_8_BRB2" BEL
         "u2p_c/time_64bit/time_sender/dataout_reg_9_BRB1" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_2_1" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_0_1" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_3_1" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_1_1" BEL
-        "u2p_c/time_64bit/ticks_31" BEL "u2p_c/time_64bit/ticks_30" BEL
-        "u2p_c/time_64bit/ticks_29" BEL "u2p_c/time_64bit/ticks_28" BEL
-        "u2p_c/time_64bit/ticks_27" BEL "u2p_c/time_64bit/ticks_26" BEL
-        "u2p_c/time_64bit/ticks_25" BEL "u2p_c/time_64bit/ticks_24" BEL
-        "u2p_c/time_64bit/ticks_23" BEL "u2p_c/time_64bit/ticks_22" BEL
-        "u2p_c/time_64bit/ticks_21" BEL "u2p_c/time_64bit/ticks_20" BEL
-        "u2p_c/time_64bit/ticks_19" BEL "u2p_c/time_64bit/ticks_18" BEL
-        "u2p_c/time_64bit/ticks_17" BEL "u2p_c/time_64bit/ticks_16" BEL
-        "u2p_c/time_64bit/ticks_15" BEL "u2p_c/time_64bit/ticks_14" BEL
-        "u2p_c/time_64bit/ticks_13" BEL "u2p_c/time_64bit/ticks_12" BEL
-        "u2p_c/time_64bit/ticks_11" BEL "u2p_c/time_64bit/ticks_10" BEL
-        "u2p_c/time_64bit/ticks_9" BEL "u2p_c/time_64bit/ticks_8" BEL
-        "u2p_c/time_64bit/ticks_7" BEL "u2p_c/time_64bit/ticks_6" BEL
-        "u2p_c/time_64bit/ticks_5" BEL "u2p_c/time_64bit/ticks_4" BEL
-        "u2p_c/time_64bit/ticks_3" BEL "u2p_c/time_64bit/ticks_2" BEL
-        "u2p_c/time_64bit/ticks_1" BEL "u2p_c/time_64bit/ticks_0" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_2_2" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_4_1" BEL
-        "u2p_c/time_64bit/time_receiver/shiftreg_6_1" BEL
         "u2p_c/vita_tx_chain/dsp_core_tx/strobe_cic_1" BEL
         "u2p_c/ext_fifo_i1/nobl_fifo_i1/nobl_if_i1/data_in_0" BEL
         "u2p_c/ext_fifo_i1/nobl_fifo_i1/nobl_if_i1/RAM_D_poe_36" BEL
@@ -21614,6 +21716,229 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         "u2p_c/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/.fifo_xlnx_512x36_2clk/BU2/U0/grf.rf/gl0.wr/wpntr/count_d2_1"
         BEL
         "u2p_c/simple_gemac_wrapper/tx_2clk_fifo/fifo_2clock/.fifo_xlnx_512x36_2clk/BU2/U0/grf.rf/gl0.wr/wpntr/count_d2_0"
+        BEL "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ab" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ac" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ad" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ae" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000af" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b0" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b1" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b2" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b3" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b4" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b5" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b6" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b7" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b8" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000b9" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ba" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bb" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bc" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bd" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000be" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000bf" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c0" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c1" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c2" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c3" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c4" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c5" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c6" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c7" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c8" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000c9" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000ca" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk000000cb" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000105" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000106" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000107" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000108" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000109" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010a" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010b" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010c" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010d" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010e" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk0000010f" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000110" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000111" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000112" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000113" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000114" BEL
+        "u2p_c/carrier_sense/uut2/u3_iq_mag/blk00000115" BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/user_valid"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_15"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_14"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_13"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_12"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_11"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_10"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_9"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_8"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_7"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_6"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_5"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_4"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_d1_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/count_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d2_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/count_d1_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_15"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_14"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_13"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_12"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_11"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_10"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_9"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_8"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_7"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_6"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_5"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_4"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_3"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_2"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_1"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_0"
+        BEL
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2"
         BEL
         "u2p_c/serdes/serdes_rx/serdes_rx_fifo/fifo_2clock/.fifo_xlnx_512x36_2clk/BU2/U0/grf.rf/rstblk/rd_rst_asreg_d2"
         BEL
@@ -22848,6 +23173,22 @@ TIMEGRP dcm_out = BEL "adc_b_pre_0" BEL "adc_b_pre_1" BEL "adc_b_pre_2" BEL
         PIN
         "u2p_c/vita_rx_chain1/dsp0_framer36/dfifo/middle_fifo/ram/Mram_ram2_pins<21>"
         PIN
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u1_r_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<18>"
+        PIN
+        "u2p_c/carrier_sense/uut2/u2_i_samples/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram_pins<19>"
+        PIN
         "u2p_c/packet_router/cpu_out_fifo/middle_fifo/ram/Mram_ram_pins<18>"
         PIN
         "u2p_c/packet_router/cpu_out_fifo/middle_fifo/ram/Mram_ram_pins<19>"
@@ -23196,6 +23537,7 @@ TIMEGRP clk_to_mac = BEL "GMII_TX_EN" BEL "GMII_TX_ER" BEL "GMII_TXD_0" BEL
         "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_0" BEL
         "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_1" BEL
         "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_2" BEL
+        "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3" BEL
         "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/gen_srl16[0].srl16e"
         BEL
         "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/gen_srl16[1].srl16e"
@@ -23313,9 +23655,7 @@ TIMEGRP clk_to_mac = BEL "GMII_TX_EN" BEL "GMII_TX_ER" BEL "GMII_TXD_0" BEL
         "u2p_c/simple_gemac_wrapper/simple_gemac/simple_gemac_tx/tx_state_1"
         BEL
         "u2p_c/simple_gemac_wrapper/simple_gemac/simple_gemac_tx/tx_state_0"
-        BEL "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB0" BEL
-        "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB1" BEL
-        "u2p_c/simple_gemac_wrapper/fifo36_to_ll8/head_fifo/a_3_BRB2" BEL
+        BEL
         "u2p_c/simple_gemac_wrapper/simple_gemac/simple_gemac_tx/GMII_TXD_7_BRB0"
         BEL
         "u2p_c/simple_gemac_wrapper/simple_gemac/simple_gemac_tx/GMII_TXD_7_BRB1"
@@ -27716,8 +28056,8 @@ TIMEGRP clk_div = BEL
         "u2p_c/zpu_top0/zpu_system0/my_zpu_core/Mshreg_Mmult_tMultResult_mult00005_16"
         BEL
         "u2p_c/zpu_top0/zpu_system0/my_zpu_core/Mmult_tMultResult_mult00005_16"
-        BEL "u2p_c/wb_rst_2_shift1" BEL "u2p_c/wb_rst_2_shift2" BEL
-        "u2p_c/wb_rst_2_shift3" BEL
+        BEL "u2p_c/wb_rst_3_shift1" BEL "u2p_c/wb_rst_3_shift2" BEL
+        "u2p_c/wb_rst_3_shift3" BEL
         "u2p_c/zpu_top0/zpu_system0/my_zpu_core/state_FSM_FFd2" BEL
         "u2p_c/settings_bus_crossclock/settings_fifo/BU2/U0/grf.rf/rstblk/wr_rst_asreg_d2"
         BEL

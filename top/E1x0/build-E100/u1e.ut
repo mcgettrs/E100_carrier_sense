@@ -1,5 +1,4 @@
 -w
--g DebugBitstream:No
 -g Binary:yes
 -g Compress
 -g CRC:Enable

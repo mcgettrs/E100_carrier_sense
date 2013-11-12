@@ -1,13 +1,55 @@
-CoreGen has not been configured with any user repositories.
-CoreGen has been configured with the following Xilinx repositories:
- - 'C:\Xilinx\13.1\ISE_DS\ISE\coregen\' []
-INFO:sim:927 - Generating component instance 'fifo_in' of
-   'xilinx.com:ip:fifo_generator:8.1' from
-   'C:\Xilinx\13.1\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\fifo_gener
-   ator_v8_1\component.xml'.
-Applying current project options...
-Finished applying current project options.
-Executing Tcl generator...
-Cancelled executing Tcl generator.
-Wrote file for project
-'C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\fifo_in.cgp'.
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Opening project file
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/coregen.cgp.
+Recustomize and Generate (Under Original Project Settings)INFO:sim:172 - Generating IP...
+Resolving generics for 'cordic_in'...
+Applying external generics to 'cordic_in'...
+Delivering associated files for 'cordic_in'...
+Generating implementation netlist for 'cordic_in'...
+INFO:sim - Pre-processing HDL files for 'cordic_in'...
+Running synthesis for 'cordic_in'
+Running ngcbuild...
+Writing VEO instantiation template for 'cordic_in'...
+Writing Verilog structural simulation model for 'cordic_in'...
+Delivered 2 files into directory
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_i
+n
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: cordic_in.xco
+XMDF file found: cordic_in_xmdf.tcl
+Adding
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_i
+n.ngc -view all -origin_type created
+Checking file
+"/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_
+in.ngc" for project device match ...
+File
+"/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_
+in.ngc" device information matches project device.
+Adding
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_i
+n.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cord
+   ic_in.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/seamas/FPGA_Projects/USRP/UCHE/usrp2/carriersense/coregen/tmp/_cg/cordic_i
+n.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/cordic_in"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+Closed project file.

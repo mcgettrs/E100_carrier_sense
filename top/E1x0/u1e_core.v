@@ -173,11 +173,13 @@ module u1e_core
       .sample(sample_rx0), .run(run_rx0), .strobe(strobe_rx0),
 		.i_sample(i), .q_sample(q),
       .debug() );
-		
+	
+  wire burst_done, data_waiting;	
+  wire 	 run_tx;
   cs_component carrier_sense (.clk(wb_clk), .rst(wb_rst), .real_value(q),
 	.img_value(i), .run(run_rx0), .strobe(strobe_rx0),
-	.present_next(present_next) , .present_nextcount(present_nextcount),
-	.threshold_out(threshold_out));
+	.set_stb_user(set_stb),.set_addr_user(set_addr),.set_data_user(set_data),
+	.present_next(present_next) ,.run_tx(run_tx),.data_waiting(data_waiting),.burst_done(burst_done));
 
 /*
 wire [31:0] buffer_status = 32'b0101010101010101010101010101010;
@@ -230,7 +232,7 @@ assign decode = (sel) ? sample_rx0 : buffer_status;
    // DSP TX
 
    wire [23:0] 	 tx_i_int, tx_q_int;
-   wire 	 run_tx;
+   
    
    vita_tx_chain #(.BASE_CTRL(SR_TX_CTRL), .BASE_DSP(SR_TX_DSP), 
 		   .REPORT_ERROR(1), .DO_FLOW_CONTROL(0),
@@ -246,7 +248,9 @@ assign decode = (sel) ? sample_rx0 : buffer_status;
       .underrun(tx_underrun_dsp), .run(run_tx),
 		//
 		.debug(debug_vt), .carrier_present(present_next),
-		.carrier_present_nextcount(present_nextcount),
+		.burst_done(burst_done),
+		.data_waiting(data_waiting),
+		.carrier_present_nextcount(0),
 		.run_rx(run_rx0)
 		//
 		);
@@ -359,7 +363,7 @@ assign decode = (sel) ? sample_rx0 : buffer_status;
    assign test_ctrl = xfer_rate[11:8];
    assign test_rate = xfer_rate[7:0];
    
-   assign { debug_led[3:0] } = ~{1'b1, run_tx, run_rx0 | run_rx1, cgen_st_ld};
+   assign { debug_led[3:0] } = ~{present_next, run_tx, run_rx0 | run_rx1, cgen_st_ld};
    assign { cgen_sync_b, cgen_ref_sel } = reg_cgen_ctrl;
    
    assign s0_dat_miso = (s0_adr[6:0] == REG_LEDS) ? reg_leds : 

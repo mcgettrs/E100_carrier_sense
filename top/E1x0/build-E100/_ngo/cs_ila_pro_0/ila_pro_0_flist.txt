@@ -1,6 +1,5 @@
 # Output products list for <ila_pro_0>
 ila_pro_0.cdc
-ila_pro_0.ejp
 ila_pro_0.gise
 ila_pro_0.ngc
 ila_pro_0.vhd
